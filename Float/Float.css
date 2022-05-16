@@ -1,0 +1,157 @@
+html {
+    height: 120%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: auto;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to top, rgba(224, 17, 79, 0.5), rgba(136, 103, 118, 0.5));
+}
+
+
+div {
+    font-family: montserrat;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.wrapper {
+    margin:  auto;
+    position: relative;
+}
+
+.level2 {
+    background-color: rgb(92, 4, 16);
+    width: 400px;
+    height: 200px;
+    border-color: #fdfdfd; 
+    border-style: solid; 
+    border-radius: 20px;
+    position: absolute;
+    top:30%;
+    right: 55%;
+    background-image: url(1.jpg);
+}
+
+.level3 {
+    background-color: rgb(107, 7, 77);
+    width: 400px;
+    height: 200px;
+    border-color: #fdfdfd; 
+    border-style: solid; 
+    border-radius: 20px;
+    position: absolute;
+    top:40%;
+    right: 45%;
+    background-image: url(3.jpg);
+}
+
+.level4 {
+    background-color: rgb(87, 86, 87);
+    width: 400px;
+    height: 200px;
+    border-color: #fdfdfd; 
+    border-style: solid; 
+    border-radius: 20px;
+    /*clear: both;*/
+    position: absolute;
+    top:50%;
+    right: 35%;
+    background-image: url(2.jpg);
+}
+
+.round
+{
+position:relative;
+width:100vh;
+height:100vh;
+}
+
+.box1
+{
+position: absolute;
+top:13%;
+right:50%;
+}   
+
+.box2
+{
+position: absolute;
+top:30%;
+right:22%;
+}
+
+
+.box3
+{
+position: absolute;
+top:30%;
+right:75%;
+}
+
+.box4
+{
+position: absolute;
+top:60%;
+right:25%;
+}
+
+.box5
+{
+position: absolute;
+top:60%;
+right:73%;
+}
+
+.box6
+{
+position: absolute;
+top:90%;
+right:50%;
+}
+
+.box7
+{
+position: absolute;
+top:13%;
+right:29%;
+}
+
+.box8
+{
+position: absolute;
+top:13%;
+right:71%;
+}
+
+.box9
+{
+position: absolute;
+top:75%;
+right:35%;
+}
+
+.box99
+{
+position: absolute;
+top:75%;
+right:65%;
+}
+
+.box10
+{
+position: absolute;
+top:6%;
+right:40%;
+}   
+
+.box11
+{
+position: absolute;
+top:6%;
+right:60%;
+}   
