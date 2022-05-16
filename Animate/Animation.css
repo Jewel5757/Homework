@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to top, rgba(14, 13, 13, 0.5), rgba(252, 252, 252, 0.5));
+}
+
+
+.block1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(206, 17, 127);
+    transform: rotate(120deg);
+    transform-origin: right bottom;
+    margin: 100px;
+}
+
+
+.block2 {
+    width: 100px;
+    margin: 100px;
+    height: 100px;
+    background-color: rgb(63, 30, 182);
+    transform: rotatex(120deg);
+}
+
+.block3 {
+    width: 100px;
+    margin: 100px;
+    height: 100px;
+    background-color: rgb(209, 16, 161);
+    transform: scale(0.5,2)
+}
+
+.block4 {
+    width: 100px;
+    margin: 100px;
+    height: 100px;
+    background-color: rgb(235, 104, 202);
+}
+
+.block4:hover{
+    transform: rotate(90deg);
+    transition: transform linear 4s;
+    transition-delay: 1s; 
+}
+

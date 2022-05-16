@@ -1,0 +1,102 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    animation: fon 30s linear infinite;
+    background: linear-gradient(to top, rgb(190, 157, 157), rgb(238, 9, 78));
+    background: linear-gradient(to top, rgb(170, 18, 18), rgb(238, 9, 181));
+    background: linear-gradient(to top, rgb(122, 29, 102), rgb(231, 40, 98));
+   /* box-shadow: 0 -200px 100px -120px crimson inset;*/
+    /*background-image: url(1605.jpg);*/
+   /* background: red;*/
+
+}
+
+
+/*@keyframes fon {
+        0% {
+            background-position: 0% 0%;
+        }
+    
+        50% {
+            background-position: 100% 0%;
+        }
+    
+        100% {
+            background-position: 0% 0%;
+        }
+    }*/
+
+  @keyframes fon {
+    0% {
+        opacity: 0;
+      }
+    50% {
+        opacity: 0.9;
+      }
+    100% {
+        opacity: 0.9;
+      }
+    }
+
+
+.box1 , .box2 , .box3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    /*background-color: pink;*/
+    background-image: url(carrot.png);
+    margin: 10px;
+    transition: all .5s
+    
+}
+
+input {
+    margin-top: 100px;
+    margin-left: 50%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cap {
+    width: 400px;
+    height: 300px;
+    background: url(zayac.gif) no-repeat;
+    display: flex;
+}
+
+
+input[type="checkbox"]:checked ~ .flex .box1 {
+    transform: rotate(45deg);
+}
+input[type="checkbox"]:checked ~ .flex .box2 {
+    transform: scale(0.75);
+}
+input[type="checkbox"]:checked ~ .flex .box3 {
+    width: 700px;
+}
+input[type="checkbox"]:checked ~ .cap {
+    /*animation: zver 2s infinite linear;*/
+    animation: slide 20s infinite linear;
+}
+
+@keyframes slide {
+    0% {position: relative; left: 0%;}
+    50% {position: relative; left: 90%;}
+    100% {position: relative; left: 0%;}
+}
