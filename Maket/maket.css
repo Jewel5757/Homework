@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    flex: none;
+    position: absolute;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: black;
+    flex: auto;
+    height: 675px;
+    color: white;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}

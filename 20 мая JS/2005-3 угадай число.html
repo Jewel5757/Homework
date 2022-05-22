@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Угадай число</title>
+</head>
+<body>
+    <script>
+        /*
+        * 1) загадываем случайное число от 1 до 100
+        * 2)спрашиваем у пользователя его число
+        * 3) сравниваем число пользователя с загаданным
+        *      если оно меньше, выводим "надо больше"
+        *      если оно больше, выводим "надо меньше"
+        *      если числа совпали, выводим "верно" и прекращаем игру
+        * 4) если не угадано, повторяем с пункта 2
+        */
+let num = Math.floor(Math.random() * 100 + 1);
+while (true) {
+let usernum = parseInt(prompt('Введите число:'));
+
+if(isNaN(usernum)) {
+    alert ('число введи');
+    continue;
+}
+
+if (num== usernum) {
+    break;
+} else if (usernum < num) {alert ('вы не угадали, надо больше')
+} else {alert ('вы не угадали, надо меньше')
+}
+}
+    alert ('вы угадали');
+    </script>
+</body>
+</html>

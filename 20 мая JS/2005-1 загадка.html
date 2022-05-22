@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  /*
+  * 1)вводим загадку
+  * 2) получаем ответ
+  * 3) сравниваем ответ с правильным
+  * 4) Выводим результат
+  */
+let question = 'зимой и летом одним цветом';
+let answer = 'елка';
+let useranswer = prompt(question);
+if(useranswer.toLowerCase().replace('ё', 'е') == answer) {
+alert('Вы угадали');
+} else {
+alert ('Вы не угадали');
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  /*
+  * 1)вводим загадку
+  * 2) получаем ответ
+  * 3) сравниваем ответ с правильным
+  * 4) Выводим результат
+  */
+let question = 'зимой и летом одним цветом';
+
+// let answer = 'елка';
+let answer = ['елка', 'кровища', 'лампочка', 'свитер']; //array
+let flag = false;
+
+let useranswer = prompt(question).toLowerCase().replace('ё', 'е');
+
+for (let i=0 ; i < answer.length; i++) {
+    if (useranswer == answer[i]) {
+        alert('Вы угадали');
+        flag = true;
+
+    break;
+}
+}
+
+if (!flag) alert ('Вы не угадали');
+/*
+if(useranswer == answer) {
+alert('Вы угадали');
+} else {
+alert ('Вы не угадали');
+}
+*/
+/* Тернарный оператор 
+useranswer == answer ? alert('Вы угадали') : alert ('Вы не угадали'); */
+
+    </script>
+</body>
+</html>
