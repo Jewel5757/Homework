@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Object</title>
+<script>
+
+/*
+    let obj = {
+        getName: function () {
+            this.name = prompt('ВВедите имя');
+        } ,
+        getAge: function () {
+            this.Age = prompt('ВВедите возраст');
+        } ,
+        state : function() {
+        alert('Имя'+ " " + this.name + " " + 'Возраст' + " " + this.Age);
+    }
+
+    }
+    obj.getName ();
+    obj.getAge();
+    obj.state ();
+    */
+
+
+function Person() {
+    this.name = prompt('ВВедите имя');
+    this.age = prompt('ВВедите возраст');
+    this.male = prompt('ВВедите Ваш пол');
+    this.city = prompt('ВВедите Ваш город');
+    this.alert = function () {
+        alert(this.name);
+        alert(this.age);
+        alert(this.male);
+        alert(this.city);
+    };
+    this.toString = function() {
+        return 'object Person named ${this.age} is ${this.status}';
+    }
+    //function setStatus(age);
+
+}
+
+ let person = new Person();
+ console.log(person);
+ console.log(setStatus);
+
+ 
+ let person1 = new Person();
+ console.log(person);
+ console.log(setStatus);
+
+
+ function setStatus(age) {
+     if (this.age < 16) {
+         this.status = 'ты слишком молод';
+     } else if (this.age > 91) {
+         this.status = 'ты слишком стар для этого';
+     }
+     else {
+         this.status = 'ты готов к испытанию';
+     }
+ }
+
+
+
+
+ document.write (toString);
+/*
+    let оbj = {new Obj
+    obj.getName = name;
+    obj.getAge = Age;}
+*/
+  
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

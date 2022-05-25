@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Object</title>
+<script>
+
+
+function Person() {
+    name = prompt('ВВедите имя');
+    age = prompt('ВВедите возраст');
+    male = prompt('ВВедите Ваш пол');
+    city = prompt('ВВедите Ваш город');
+    alert = function () {
+        alert(name);
+        alert(age);
+        alert(male);
+        alert(city);
+    };
+    status = setStatus(age)
+    this.toString = function() {
+        return 'Имя: ' + name.toString() + '! Возраст этого мудака - ' + age.toString() + ' Гендерная неопределеннсть ' + male.toString() + '! город: ' + city.toString() + ', А статус:  ' + status.toString();
+    }
+
+}
+
+ let person = new Person();
+ console.log(person);
+
+ function setStatus(age) {
+     if (age < 16) {
+         status = 'ты слишком молод';
+     } else if (this.age > 91) {
+         status = 'ты слишком стар для этого';
+     }
+     else {
+         status = 'ты готов к испытанию';
+     }
+     return status
+ }
+
+ document.write(person);
+
+  
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

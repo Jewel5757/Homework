@@ -82,7 +82,7 @@ main p {
 
 .text1 {
   height: 148px;
-  display: flex;
+  display: grid;
   margin: 0;
   padding: 0;
   align-self: flex-start;
@@ -99,9 +99,11 @@ main p {
   letter-spacing: 5%;
 }
 
-.button {
+.button1 {
   padding-top: 67px;
   display: grid;
+  text-align: center;
+  justify-content: center;
 }
 
 button {
@@ -151,7 +153,6 @@ button {
 .card2 {
   margin-left: 32px;
   margin-right: 32px;
-  line-height: ;
 }
 
 .card1 h4,
@@ -162,7 +163,6 @@ button {
   color: #1f3f68;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.05em;
   margin-left: 32px;
@@ -229,6 +229,7 @@ color: #FFFFFF;
 .b0 {
     height: 205px;
     grid-area: a;
+    width: 1140px;
 }
 
 .b0 h3 {
@@ -252,13 +253,18 @@ color: #222222;
 
 .b1 {
     height: 480px;
+    width: 1140px;
     background-image: url(img/Group16.png);
     background-size: cover;
     grid-area: b;
     text-align: right;
-    padding-right: 63px;
     border-radius: 10px;
 }
+
+.b1 h5 {
+  padding-right: 63px;
+}
+
 
 .b2 {
     width: 554px;
@@ -267,7 +273,6 @@ color: #222222;
     background-size: cover;
     grid-area: c;
     text-align: left;
-    padding-left: 32px;
     border-radius: 10px;
 }
 
@@ -278,8 +283,8 @@ color: #222222;
     background-size: cover;
     grid-area: d;
     text-align: left;
-    padding-left: 32px;
     border-radius: 10px;
+    margin-bottom: 112px;
 }
 
 
@@ -289,7 +294,7 @@ footer {
 
 .container3 {
   width: 1140px;
-  height: 384px;
+  height: 393px;
   background-color: #316099;
   display: flex;
   flex-wrap: wrap;
@@ -302,15 +307,24 @@ footer {
 .button {
     float: right;
     color: #FFFFFF;
-    flex: none;
+    margin-top: -160px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+    width: 236px;
+    height: 56px;
+    vertical-align: center;
 }
 
-.f1 h4 {
+.f1  h4 {
 font-weight: 400;
 font-size: 36px;
 line-height: 46px;
 letter-spacing: 0.05em;
 color: #FFFFFF;
+display: block;
+width: 316px;
 }
 
 .f1 h5 {
@@ -320,4 +334,47 @@ line-height: 26px;
 letter-spacing: 0.05em;
 color: #FFFFFF;
 opacity: 0.6;
+display: block;
+width: 494px;
+}
+
+.f1 {
+  height: 384px;
+  width: 1140px;
+}
+
+
+
+.container4 {
+  width: 1140px;
+  height: 267px;
+  background-color: #316099;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container4  p {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.4;
+margin-top: 73px;
+}
+ section {
+  border-top:1px solid rgba(255, 255, 255, 0.4);
+ }
+
+ ol {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
 }

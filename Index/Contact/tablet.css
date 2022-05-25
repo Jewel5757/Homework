@@ -1,0 +1,122 @@
+@media screen and (max-width: 1200px) {
+    header .container {
+        width: 700px;
+        display: grid;
+        grid-template-columns: 46px 1fr 34px;
+        justify-content: center;
+      }
+
+    main .container1 {
+      justify-items: center;
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+        display: grid;
+        grid-template-areas: "a"
+                             "b"
+                             "c";
+      }
+      
+      .contactUs {
+        height: 250px;
+        width: 700px;
+      }
+      
+
+      .contactUs p {
+        padding: 0;
+      }
+
+      .adres {
+        grid-area: a;
+        justify-items: center;
+       }
+
+
+      .a1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 300px;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      .t1,
+      .t2,
+      .t3 {
+      display: flex;
+      align-self: left;
+      flex-direction: column;
+      }
+      
+      .t1 h2,
+      .t2 h2,
+      .t3 h2{
+      text-align: left;
+      }
+
+
+      .forma {
+        grid-area: b;
+        justify-items: center;
+      }
+      
+      .karta {
+        background-color: #ffffff;
+        grid-area: c;
+        width: 700px;
+        height: 357px;
+      }
+
+      .karta img {
+        width: 700px;
+        height: auto;
+      }
+
+.button1 {
+    margin-top: 72px;
+    padding: 0;
+}
+
+
+.container3 {
+    width: 700px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.container4 {
+     padding-top: 64px;
+     width: 700px;
+     margin: 0;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+
+ol {
+    display: block;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    }
+
+
+li {
+    margin-bottom: 25px;
+    }
+
+.f1 h5 {
+    width: 336px;
+}
+
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Object</title>
+<script>
+
+
+    let obj = {
+        getName: function () {
+            this.name = prompt('ВВедите имя');
+        } ,
+        getAge: function () {
+            this.Age = prompt('ВВедите возраст');
+        } ,
+        state : function() {
+        alert('Имя'+ " " + this.name + " " + 'Возраст' + " " + this.Age);
+    }
+
+    }
+    obj.getName ();
+    obj.getAge();
+    obj.state ();
+    
+
+
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

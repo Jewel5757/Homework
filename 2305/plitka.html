@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+ 
+ 
+ let squareAll = 100; /*площадб ванной*/
+ let squareOne = 3; /*сколько метров в 1 плитке */
+ let box = 10*squareOne; /*сколько плиток в коробке*/
+
+ function plitka(squareAll,squareOne,box) {
+     let x = squareAll/box*squareOne; /*остаток*/
+     let y = Math.ceil(100/30); /*КАК вычислить сколько коробок */
+     console.log(x)
+     console.log(y);
+ }
+ 
+ plitka(squareAll,squareOne,box)
+ 
+ 
+ /*let cash = 100 ;
+ let bag =[];
+
+function bye(name, price) {
+    if (cash < price)  { console.log ('не хватает');
+    return false;
+    }
+    cash -= price;
+    bag.push (name);
+    return (true);
+}*/
+
+
+
+   /* function  myfunk(a,b) {
+            a=5;
+            b=4;
+            console.log(a + b);
+            }
+            
+            let c =1 , d=2 ;
+            myfunk(c,d)
+            console.log(c);
+            console.log(d);*/
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

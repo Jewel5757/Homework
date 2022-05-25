@@ -1,0 +1,276 @@
+@media screen and (max-width: 760px) {
+    header .container {
+        width: 340px;
+        display: grid;
+        grid-template-columns: 46px 1fr 34px;
+        justify-content: center;
+      }
+
+.fon1 {
+    background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
+      }
+
+main .container {
+    width: 340px;
+    height: 336px;
+    margin-top: 0;
+margin-left: auto;
+margin-right: auto;
+    display:flex
+  }
+
+.block1 {
+    margin-top: 40px;
+    width: 336px;
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.block2 {
+    display: none;
+}
+
+.text1 {
+    height: 76px;
+    width: 336px;
+    margin: 0;
+    padding: 0;
+    color: #1f3f68;
+    letter-spacing: 50%;
+  }
+
+.text1 h1 {
+    height: 92px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.text2 {
+    padding: 0;
+    text-align: center;
+}
+
+.button1 {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.button1 > button {
+    background-color: transparent;
+    width: 220px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+  }
+.container2 {
+    display: grid;
+    grid-row: 100px 450px 450px 450px;
+    width: 336px;
+    height: auto;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.card2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.card1,
+.card2,
+.card3 {
+    padding-top: 10;
+}
+
+
+.card1 h4,
+.card2 h4,
+.card3 h4 {
+  display: flex;  
+  font-size: 20px;
+  color: #1f3f68;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  margin-left: 32px;
+  margin-top: 20px;
+  margin-right: 50px;
+  line-height: 30px;
+}
+
+
+.block3 {
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    height: 136px;
+}
+ 
+.block3 p {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.block4 {
+    width: 336px;
+    gap: 32px; 
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-areas: 'a' 'b' 'c' 'd';
+  }
+.b0 {
+    width: 336px;
+    height: 254px;
+    grid-area: a;
+  }
+
+.b1 {
+    width: 336px;
+    height: 144px;
+    grid-area: b;
+  }
+
+.b1 h5 {
+    text-align: right;
+    padding-right: 18px;
+}
+
+
+.b2 {
+    width: 336px;
+    height: 253px;
+    grid-area: c;
+  }
+ 
+.b3 {
+    width: 336px;
+    height: 253px;
+    grid-area: d;
+    margin-bottom: 60px;
+  }
+
+
+.b2 h5,
+.b3 h5 {
+    padding-left: 18px;
+  }
+.container3 {
+    width: 336px;
+    height: 310px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container4 {
+     padding-top: 64px;
+     width: 336px;
+     margin: 0;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+.f1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 336px;
+    }
+     
+
+.f1 h5 {
+    width: 336px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 38px;
+    margin-top: 0;
+}
+
+.f1 h4 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 0;
+}
+ 
+
+.card1 h6,
+.card2 h6,
+.card3 h6 {
+    margin-top: 0;
+}
+
+.card1 h5,
+.card2 h5,
+.card3 h5 {
+  margin-left: 32px;
+  margin-right: 32px;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+
+.b0 h3 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 46px;
+    text-align: center;
+
+    }
+    
+.b0 h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+ 
+        }
+    
+.block4 h5 {
+       font-size: 16px;
+       line-height: 19px;
+       letter-spacing: 0.05em;
+ 
+       }
+
+.button {
+        float: none;
+        margin-top: 0px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+        width: 108px;
+        height: 31px;
+        float: none;
+    }
+
+ol {
+    font-size: 16px;
+    line-height: 18px;
+    }
+
+
+li {
+    margin-bottom: 25px;
+    }
+
+.container4  p { 
+    text-align: center;
+}
+
+}

@@ -1,0 +1,165 @@
+
+
+@media screen and (max-width: 760px) {
+    header .container {
+        width: 340px;
+        display: grid;
+        grid-template-columns: 46px 1fr 34px;
+        justify-content: center;
+      }
+     
+  
+
+      main .container1 {
+        width: 341px;
+      }
+      
+     .container1 {
+       margin-left: 0;
+       margin-right: 0;
+     }
+
+      .contactUs {
+        height: 250px;
+        width: 340px;
+      }
+      
+      .contactUs h1 {
+        font-size: 24px;
+      }
+
+      .contactUs p {
+        font-size: 16px;
+      }
+
+      .adres {
+        width: 340px;
+        grid-area: a;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      .forma {
+        width: 340px;
+        grid-area: b;
+      }
+      
+
+      .fieldset {
+        width: 340px;
+        height: auto;
+        padding-top: 20px;
+      }
+        
+     
+  input[type=text]{
+  width:270px;
+  height: 46px;
+  margin-left: 31px;
+  }
+
+
+      .karta {
+        width: 340px;
+        grid-area: c;
+      }
+
+      .karta img {
+        width: 340px;
+        height: 350px;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+
+/*было*/
+
+.button1 {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    width: 340px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.button1 > button {
+    width: 276px;
+    height: 56px;
+    font-size: 16px;
+    margin-bottom: 30px;
+ 
+
+  }
+
+.container3 {
+    width: 336px;
+    height: 310px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container4 {
+     padding-top: 64px;
+     width: 336px;
+     margin: 0;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+.f1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 336px;
+    }
+     
+
+.f1 h5 {
+    width: 336px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 38px;
+    margin-top: 0;
+}
+
+.f1 h4 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 0;
+}
+ 
+
+
+.button {
+        float: none;
+        margin-top: 0px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+        width: 108px;
+        height: 31px;
+        float: none;
+    }
+
+ol {
+    font-size: 16px;
+    line-height: 18px;
+    }
+
+
+li {
+    margin-bottom: 25px;
+    }
+
+.container4  p { 
+    text-align: center;
+}
+
+}
