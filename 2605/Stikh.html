@@ -41,13 +41,15 @@
 
        console.log (letters);
        console.log(Object.values(letters) .reduce((sum,current) => sum + current,0));
-      
+       let letter = Object.values(letters) .reduce((sum,current) => sum + current,0)
        document.write('<pre>'+input+'</pre>');
   
        document.write ('Длина до преобразований:' + ' ' + dlina +  ' ' + 'Длина после преобразрвания:' + dlina1 + ' ' );
   
 
-       document.write ('Количество слов' +  ' ' +slova)
+       document.write ('Количество слов-' +  ' ' +slova)
+
+       document.write (' ' +'Количество букв-' +  ' ' +letter)
     </script>
 </head>
 <body></body>
